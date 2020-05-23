@@ -27,11 +27,11 @@ public:
 	ApplicationDevelopment operator +(ApplicationDevelopment<a, b> val); // Функциия суммы (перегрузка оператора +)
 	void operator =(ApplicationDevelopment<a, b> &val); // Функция присваивания (перегрузка оператора =)
 	void print(); // Функция вывода информации об объекте
-	virtual void getname();
-	virtual void getversion();
-	virtual void getcost();
-	virtual void getplatform();
-	virtual void getlanguage();
+	void getname();
+	void getversion();
+	void getcost();
+	void getplatform();
+	void getlanguage();
 
 protected:
 	a * name;
